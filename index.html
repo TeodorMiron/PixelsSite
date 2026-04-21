@@ -19,6 +19,7 @@
       <nav>
         <ul class="nav__links" id="navLinks">
           <li><a href="#produse">Produse</a></li>
+          <li><a href="#galerie">Galerie</a></li>
           <li><a href="#de-ce-noi">De ce noi</a></li>
           <li><a href="#recenzii">Recenzii</a></li>
           <li><a href="pages/contact.html" class="nav__cta">Comandă acum</a></li>
@@ -44,12 +45,12 @@
       </p>
       <div class="hero__actions">
         <a href="#produse" class="btn btn--pink">Vezi albumele</a>
-        <a href="#de-ce-noi" class="btn btn--outline">Află mai multe</a>
+        <a href="#galerie" class="btn btn--outline">Galerie foto</a>
       </div>
 
       <div class="hero__albums">
         <div class="hero__album-card pink">
-          <div class="hero__album-emoji">📔</div>
+          <img class="hero__album-thumb" src="assets/images/album_roz/roz_1.jpg" alt="Album Povestea Mea Roz" />
           <div class="hero__album-info">
             <div class="hero__album-name">Povestea Mea</div>
             <div class="hero__album-color">Roz · PXL-2</div>
@@ -57,7 +58,7 @@
           </div>
         </div>
         <div class="hero__album-card blue">
-          <div class="hero__album-emoji">📘</div>
+          <img class="hero__album-thumb" src="assets/images/album_albastru/albastru_1.jpg" alt="Album Povestea Mea Albastru" />
           <div class="hero__album-info">
             <div class="hero__album-name">Povestea Mea</div>
             <div class="hero__album-color">Albastru · PXL-1</div>
@@ -81,8 +82,8 @@
 
         <!-- Roz -->
         <div class="product-card">
-          <div class="product-card__cover pink">
-            📔
+          <div class="product-card__cover">
+            <img src="assets/images/album_roz/roz_1.jpg" alt="Album Povestea Mea Roz" />
             <div class="product-card__badge">⭐ 5.0 / 5</div>
           </div>
           <div class="product-card__body">
@@ -111,8 +112,8 @@
 
         <!-- Albastru -->
         <div class="product-card">
-          <div class="product-card__cover blue">
-            📘
+          <div class="product-card__cover">
+            <img src="assets/images/album_albastru/albastru_1.jpg" alt="Album Povestea Mea Albastru" />
             <div class="product-card__badge">⭐ 5.0 / 5</div>
           </div>
           <div class="product-card__body">
@@ -142,6 +143,77 @@
       </div>
     </div>
   </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="galerie">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-header__label">Galerie foto</p>
+        <h2 class="section-header__title">Vezi albumele în detaliu</h2>
+        <p class="section-header__sub">Apasă pe orice imagine pentru a o mări.</p>
+      </div>
+
+      <!-- Tabs -->
+      <div class="gallery__tabs">
+        <button class="gallery__tab is-active" data-tab="roz">Album Roz</button>
+        <button class="gallery__tab" data-tab="albastru">Album Albastru</button>
+      </div>
+
+      <!-- Roz -->
+      <div class="gallery__panel is-active" id="tab-roz">
+        <div class="gallery__video-wrap">
+          <video controls playsinline preload="none"
+                 poster="assets/images/album_roz/roz_1.jpg">
+            <source src="assets/images/album_roz/roz_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="gallery__grid">
+          <img src="assets/images/album_roz/roz_1.jpg" alt="Album roz foto 1" loading="lazy" />
+          <img src="assets/images/album_roz/roz_2.jpg" alt="Album roz foto 2" loading="lazy" />
+          <img src="assets/images/album_roz/roz_3.jpg" alt="Album roz foto 3" loading="lazy" />
+          <img src="assets/images/album_roz/roz_4.jpg" alt="Album roz foto 4" loading="lazy" />
+          <img src="assets/images/album_roz/roz_5.jpg" alt="Album roz foto 5" loading="lazy" />
+          <img src="assets/images/album_roz/roz_6.jpg" alt="Album roz foto 6" loading="lazy" />
+          <img src="assets/images/album_roz/roz_7.jpg" alt="Album roz foto 7" loading="lazy" />
+          <img src="assets/images/album_roz/roz_8.jpg" alt="Album roz foto 8" loading="lazy" />
+          <img src="assets/images/album_roz/roz_9.jpg" alt="Album roz foto 9" loading="lazy" />
+        </div>
+      </div>
+
+      <!-- Albastru -->
+      <div class="gallery__panel" id="tab-albastru">
+        <div class="gallery__video-wrap">
+          <video controls playsinline preload="none"
+                 poster="assets/images/album_albastru/albastru_1.jpg">
+            <source src="assets/images/album_albastru/albastru_video.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="gallery__grid">
+          <img src="assets/images/album_albastru/albastru_1.jpg"  alt="Album albastru foto 1"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_2.jpg"  alt="Album albastru foto 2"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_3.jpg"  alt="Album albastru foto 3"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_4.jpg"  alt="Album albastru foto 4"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_5.jpg"  alt="Album albastru foto 5"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_6.jpg"  alt="Album albastru foto 6"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_7.jpg"  alt="Album albastru foto 7"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_8.jpg"  alt="Album albastru foto 8"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_9.jpg"  alt="Album albastru foto 9"  loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_10.jpg" alt="Album albastru foto 10" loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_11.jpg" alt="Album albastru foto 11" loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_12.jpg" alt="Album albastru foto 12" loading="lazy" />
+          <img src="assets/images/album_albastru/albastru_13.jpg" alt="Album albastru foto 13" loading="lazy" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Închide">✕</button>
+    <button class="lightbox__prev" id="lightboxPrev" aria-label="Anteriorul">‹</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+    <button class="lightbox__next" id="lightboxNext" aria-label="Următorul">›</button>
+  </div>
 
   <!-- Why us -->
   <section class="why" id="de-ce-noi">

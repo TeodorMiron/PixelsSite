@@ -1,0 +1,11 @@
+{
+  "name": "pixels-world",
+  "version": "1.0.0",
+  "description": "Pixel's World — landing page for baby photo albums",
+  "scripts": {
+    "dev": "npx browser-sync start --server --files '**/*.html, css/*.css, js/*.js' --no-notify --open",
+    "start": "npm run dev"
+  },
+  "author": "Pixel's World",
+  "license": "ISC"
+}

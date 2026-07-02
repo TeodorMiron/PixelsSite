@@ -18,8 +18,8 @@ Nu există build step, linter sau test suite — fișierele sunt servite direct 
 
 | Cod   | Nume         | Culoare  | Preț   | Pagini | Foto |
 |-------|--------------|----------|--------|--------|------|
-| PXL-2 | Povestea Mea | Roz      | 90 Lei | 42     | 50   |
-| PXL-1 | Povestea Mea | Albastru | 90 Lei | 42     | 50   |
+| PXL-2 | Povestea Mea | Roz      | 100 Lei| 42     | 50   |
+| PXL-1 | Povestea Mea | Albastru | 100 Lei| 42     | 50   |
 
 Format: 210×210 mm pătrat, copertă plus (moale, catifelată), hârtie extra-presată, legătură cusută.
 

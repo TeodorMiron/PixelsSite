@@ -175,8 +175,8 @@ body {
 .hero__album-card {
   background: var(--white);
   border-radius: 20px;
-  padding: 2rem 1.5rem 1.5rem;
-  width: 200px;
+  padding: 1.25rem 1.25rem 1.5rem;
+  width: 240px;
   text-align: center;
   box-shadow: 0 8px 32px #0001;
   transition: transform 0.2s;
@@ -188,10 +188,11 @@ body {
 .hero__album-card.blue { border-top: 4px solid var(--blue); }
 
 .hero__album-thumb {
-  width: 64px;
-  height: 64px;
+  width: 100%;
+  height: 140px;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 12px;
+  margin-bottom: 1rem;
   flex-shrink: 0;
 }
 
@@ -778,6 +779,8 @@ body {
   }
 
   .hero__album-emoji { font-size: 2.8rem; margin-bottom: 0; flex-shrink: 0; }
+
+  .hero__album-thumb { width: 72px; height: 72px; margin-bottom: 0; border-radius: 10px; }
 
   .hero__album-info { flex: 1; }
   .hero__album-name { font-size: 1rem; }

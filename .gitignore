@@ -1,0 +1,11 @@
+# Materiale sursă — rămân local, nu se publică pe site
+DateProduse/
+pixel albume/
+poze si video album baietei/
+poze si video album fetite/
+assets/images/**/WhatsApp*
+
+# Diverse
+node_modules/
+.DS_Store
+Thumbs.db

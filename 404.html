@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Analytics 4 (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-95DQB4P9X3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-95DQB4P9X3');
+  </script>
+
+  <title>Pagina nu a fost găsită — Pixel's World</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    .notfound {
+      min-height: 70vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, var(--pink-light), var(--blue-light));
+      text-align: center;
+      padding: 4rem 0;
+    }
+    .notfound__code { font-size: 5rem; font-weight: 900; line-height: 1; margin-bottom: 0.5rem; }
+    .notfound h1 { font-size: 1.8rem; font-weight: 800; margin-bottom: 0.75rem; }
+    .notfound p { color: var(--muted); max-width: 480px; margin: 0 auto 2rem; line-height: 1.7; }
+  </style>
+</head>
+<body>
+
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="/" class="nav__logo">📷 Pixel's <span>World</span></a>
+      <nav>
+        <ul class="nav__links" id="navLinks">
+          <li><a href="/#produse">Produse</a></li>
+          <li><a href="/#galerie">Galerie</a></li>
+          <li><a href="/#recenzii">Recenzii</a></li>
+          <li><a href="/pages/blog/index.html">Blog</a></li>
+        </ul>
+      </nav>
+      <button class="nav__hamburger" id="navToggle" aria-label="Deschide meniu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="notfound">
+    <div class="container">
+      <div class="notfound__code">4📷4</div>
+      <h1>Ups! Pagina asta nu există.</h1>
+      <p>Se pare că pagina pe care o cauți a fost mutată sau nu a existat niciodată. Dar albumele noastre foto pentru bebeluși sunt tot aici!</p>
+      <a href="/" class="btn btn--pink">Înapoi la pagina principală</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Pixel's World · <a href="/pages/about.html">Despre noi</a> · <a href="/pages/blog/index.html">Blog</a> · <a href="/pages/contact.html">Contact</a></p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

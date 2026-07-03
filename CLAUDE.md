@@ -25,7 +25,7 @@ Format: 210×210 mm pătrat, copertă plus (moale, catifelată), hârtie extra-p
 
 ## Arhitectură
 
-Site static (GitHub Pages, domeniul `www.pixelsworld.ro` via `CNAME`): `index.html`, `404.html`, `pages/about.html`, `pages/contact.html` și blogul în `pages/blog/` (index + 3 articole). Toate partajează `css/reset.css` + `css/style.css` și `js/main.js`.
+Site static (GitHub Pages, domeniul `www.pixelsworld.ro` via `CNAME`): `index.html`, `404.html`, `pages/about.html`, `pages/contact.html`, paginile de produs `pages/album-foto-bebelusi-roz.html` / `pages/album-foto-bebelusi-albastru.html` (landing pages pentru Google Merchant Center, cu buton de cumpărare pe eMAG) și blogul în `pages/blog/` (index + 3 articole). Toate partajează `css/reset.css` + `css/style.css` și `js/main.js`.
 
 **`js/main.js`** conține toată logica interactivă: hamburger menu, smooth scroll, gallery tabs (roz/albastru), lightbox cu navigare cu tastatura (←/→/Esc).
 
@@ -42,7 +42,7 @@ Imaginile produselor au nume SEO în `assets/images/album_roz/` (`album-foto-beb
 - `sitemap.xml` + `robots.txt` în root; fiecare pagină are meta description unică, `canonical` și Open Graph
 - JSON-LD pe `index.html`: Organization, WebSite, 2× Product (preț/rating), FAQPage, 2× VideoObject; pe blog: BlogPosting + BreadcrumbList
 - Google Analytics 4 (`G-95DQB4P9X3`) în `<head>` pe toate paginile
-- La schimbarea prețului: actualizează și `"price"` din JSON-LD (index.html), nu doar textul vizibil
+- La schimbarea prețului: actualizează și `"price"` din JSON-LD + meta `product:price:amount`, nu doar textul vizibil — în `index.html` și în ambele pagini de produs din `pages/`
 
 ## Design system
 

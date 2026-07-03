@@ -270,6 +270,7 @@ body {
 }
 
 .product-card__cover {
+  display: block;
   height: 280px;
   position: relative;
   overflow: hidden;
